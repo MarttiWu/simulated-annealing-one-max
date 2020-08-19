@@ -16,8 +16,8 @@ Open terminal
     
 1. Run directly in the terminal by typing the following:
 
-        #./main [algo] [runs] [iter] [bits] [filename]
-        ./main sa 30 100 100 ""
+        #./main [algo] [runs] [iter] [bits] [filename] [temperature] [annealing rate]
+        ./main sa 30 1000 100 "" 2 0.9
     
 2. Or if you want to run multiple times, just by opening the "search.sh" and add whatever you want and run by typing
 
@@ -29,10 +29,10 @@ Open terminal
 
 You can change the iteration block by modifying 
 
-        const int block=5;
+        const int block=10;
 in "execute.hpp".
 
 # Results
 
-![alt text]()
+![alt text](https://github.com/MarttiWu/simulated-annealing-one-max/blob/master/SA_one_max.png)
 
